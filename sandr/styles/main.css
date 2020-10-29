@@ -1,19 +1,31 @@
- 
-/* .bi.bi-cart3 {
-color: aliceblue;
-fill: currentColor;
-height: 30px;
-width: 30px;
-} */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p.lead {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+p.h1 {
+    font-family: 'Libre Baskerville', serif;
+}
+
  #cart {
     color: aliceblue;
-    fill: currentColor;
-
+    height: 30px;
+    background-color:rgb(28,71,53);
 }   
 
-img cart {
-    color: aliceblue;
-    fill: currentColor;
-    height: 30px;
-    width: 30px;
-} 
+#logo {
+    height:60px;    
+}
+#sM {
+    height: 60px;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+   
