@@ -6,8 +6,8 @@ body {
 p{
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
     Tahoma, sans-serif;
-    font-size: 16px; 
-    font-style: bold; 
+    font-size: 16px;
+    font-style: bold;
     font-variant: normal;
     color: rgb(28,71,53);
 }
@@ -15,21 +15,21 @@ p{
 
 h1 {
     font-family: 'Libre Baskerville', serif;
-    font-family: 'Baskerville', serif; 
-    font-size: 40px; 
-    font-style: bold; 
+    font-family: 'Baskerville', serif;
+    font-size: 40px;
+    font-style: bold;
     font-variant: normal;
-    font-weight: 400; 
+    font-weight: 400;
     line-height: 48px;
     color: rgb(28,71,53);
 }
 
 p.h1, .display-4 {
-    font-family: 'Baskerville', serif; 
-    font-size: 48px; 
-    font-style: normal; 
+    font-family: 'Baskerville', serif;
+    font-size: 48px;
+    font-style: normal;
     font-variant: normal;
-    font-weight: 400; 
+    font-weight: 400;
     line-height: 58px;
     color: rgb(28,71,53);
 }
@@ -37,10 +37,10 @@ p.h1, .display-4 {
 p.h2 {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
     Tahoma, sans-serif;
-    font-size: 32px; 
-    font-style: bold; 
+    font-size: 32px;
+    font-style: bold;
     font-variant: normal;
-    font-weight: 400; 
+    font-weight: 400;
     line-height: 48px;
     color: rgb(28,71,53);
 }
@@ -51,20 +51,20 @@ a.h3:hover{
 }
 
 
-p.h3 { 
-    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
-    Tahoma, sans-serif; 
-    font-size: 28px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
-    line-height: 17px; }
-
-h4{ 
+p.h3 {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
     Tahoma, sans-serif;
-    font-size: 24px; 
-    font-style: bold; 
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 17px; }
+
+h4{
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+    Tahoma, sans-serif;
+    font-size: 24px;
+    font-style: bold;
     font-variant: normal;
     color: rgb(28,71,53);
 }
@@ -72,8 +72,8 @@ h4{
 /* Navbar */
 .navbar-dark .navbar-nav .nav-link{
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
-    Tahoma, sans-serif; 
-    font-size: 24px; 
+    Tahoma, sans-serif;
+    font-size: 24px;
     color: #F2D6D4;
     padding: 1.5rem;
     background-color:rgb(28,71,53);
@@ -85,16 +85,16 @@ h4{
 
 .navbar-dark .navbar-nav .nav-link:hover{
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
-    Tahoma, sans-serif; 
-    font-size: 24px; 
+    Tahoma, sans-serif;
+    font-size: 24px;
     color: white;
     padding: 1.5rem;
 }
 
 .footer-nav-link{
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
-    Tahoma, sans-serif; 
-    font-size: 17px; 
+    Tahoma, sans-serif;
+    font-size: 17px;
     color: #F2D6D4;
     padding: 1.5rem;
 
@@ -102,16 +102,16 @@ h4{
 
 .dropdown-item{
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
-    Tahoma, sans-serif; 
-    font-size: 24px; 
+    Tahoma, sans-serif;
+    font-size: 24px;
     color: #F2D6D4;
     background-color: rgb(28,71,53);
 }
 
 .dropdown-item:hover{
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
-    Tahoma, sans-serif; 
-    font-size: 24px; 
+    Tahoma, sans-serif;
+    font-size: 24px;
     color:  rgb(28,71,53) ;
     background-color:#F2D6D4;
 }
@@ -126,8 +126,8 @@ h4{
 .card-text{
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
     Tahoma, sans-serif;
-    font-size: 16px; 
-    font-style: bold; 
+    font-size: 16px;
+    font-style: bold;
     font-variant: normal;
     color: rgb(28,71,53);
 }
@@ -138,7 +138,7 @@ h4{
     color:white;
 }
 
-    
+
 /*  Jumbotron */
 .jumbotron{
     background-color: #F2D6D4;
@@ -146,10 +146,10 @@ h4{
 
 p.lead {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
-    Tahoma, sans-serif;  
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
+    Tahoma, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     color: rgb(28,71,53);
 }
 
@@ -158,26 +158,26 @@ p.lead {
     color: white;
     height: 30px;
     background-color:rgb(28,71,53);
-}   
+}
 
 #addToCart {
     color: white;
     height: 20px;
     background-color:rgb(28,71,53);
     padding: 0px 9px 4px 0px;
-}   
+}
 
 #logo {
-    height:100px;    
+    height:100px;
 }
 #sM {
     height: 60px;
     padding: 10px;
     margin: 10px 10px 10px 10px;
 }
-#mD{
-    height: 300px;
-}    
+.mD{
+    width: 244px;
+}
 
 /* Sidebar */
 #vl {
@@ -185,7 +185,7 @@ p.lead {
     border-width: medium;
     border-color: #1c4735;
 }
- 
+
 
 
 
@@ -204,7 +204,7 @@ p.lead {
 #prodPrice {
     margin-top: 7px;
     font-weight: bold;
-} 
+}
 
 
 
@@ -215,15 +215,58 @@ p.lead {
     height: 260px; /* [1.1] Set it as per your need */
     overflow: hidden; /* [1.2] Hide the overflowing of child elements */
   }
-  
+
   /* [2] Transition property for smooth transformation of images */
   .img-hover-zoom img {
     transition: transform .5s ease;
   }
-  
+
   /* [3] Finally, transforming the image when container gets hovered */
   .img-hover-zoom:hover img {
     transform: scale(1.5);
   }
 
-  
+/* Responsiveness */
+$grid-breakpoints: (
+  xs: 0,
+  sm: 768px,
+  md: 768px,
+  lg: 1024px
+);
+
+$container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 960px
+);
+
+
+
+/* Media Queries */
+@media only screen and (min-width: 1200px){
+/* for desktop: */
+.card-img-top {
+  width: 16rem;
+}
+
+.card {
+  width: 16rem;
+}
+
+.card-body{
+  background-color: #ffffff;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* For tablet: */
+.card-img-top {
+  min-width: 160px;
+  max-width: 16em;
+}
+
+.mD{
+min-width: 10em;
+max-width: 12em;
+}
