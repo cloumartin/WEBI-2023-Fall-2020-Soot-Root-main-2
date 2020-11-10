@@ -131,6 +131,8 @@ h4{
     font-variant: normal;
     color: rgb(28,71,53);
 }
+
+
 .btn-primary {
     color:#F2D6D4;
 }
@@ -142,6 +144,7 @@ h4{
 /*  Jumbotron */
 .jumbotron{
     background-color: #F2D6D4;
+    display: none;
     }
 
 p.lead {
@@ -180,14 +183,15 @@ p.lead {
 }
 
 /* Sidebar */
-#vl {
-    border-left: solid;
-    border-width: medium;
-    border-color: #1c4735;
+
+
+
 }
-
-
-
+.sidebar-item {
+  border-style: solid;
+  border-width: medium;
+  border-color: #07332d;
+}
 
 
 
@@ -226,20 +230,25 @@ p.lead {
     transform: scale(1.5);
   }
 
-/* Responsiveness */
-$grid-breakpoints: (
-  xs: 0,
-  sm: 768px,
-  md: 768px,
-  lg: 1024px
-);
+/* HomePage -- Main */
+#homepage-about {
+  background-color: #ecdbd2;
+}
 
-$container-max-widths: (
-  sm: 420px,
-  md: 720px,
-  lg: 960px
-);
+#aboutus-emphasis {
+  color: #3f8c68;
+  padding-left: .5em;
+}
 
+#aboutus-textblock{
+  padding-top: 1.5em;
+  padding-bottom: 3em;
+  margin-bottom: 2em;
+}
+
+.sidebar-img-small {
+  display: none;
+}
 
 
 /* Media Queries */
@@ -257,9 +266,26 @@ $container-max-widths: (
   background-color: #ffffff;
 }
 
+.jumbotron {
+  display: block;
 }
 
-@media only screen and (min-width: 768px) {
+#vl {
+    border-left: solid;
+    border-width: medium;
+    border-color: #1c4735;
+}
+
+.sidebar-img-small {
+  display: block;
+}
+
+/* .sidebar-img {
+  display: none; */
+
+}
+
+@media only screen and (min-width: 977px) {
   /* For tablet: */
 .card-img-top {
   min-width: 160px;
@@ -269,4 +295,26 @@ $container-max-widths: (
 .mD{
 min-width: 10em;
 max-width: 12em;
+}
+
+.jumbotron {
+  display: block;
+}
+
+.sidebar-img {
+  display: none;
+}
+.sidebar-img-small {
+  display: block;
+}
+
+
+#vl {
+    border-left: solid;
+    border-width: medium;
+    border-color: #1c4735;
+}
+
+
+
 }
