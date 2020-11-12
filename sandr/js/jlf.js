@@ -1,4 +1,3 @@
-$("#myPic")
-  .fadeOut(4000)
-  .fadeIn(3000);
-
+$( document ).ready(function() {
+    
+});
