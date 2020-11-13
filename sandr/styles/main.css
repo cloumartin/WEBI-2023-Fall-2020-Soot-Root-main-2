@@ -131,14 +131,37 @@ h4{
     color: rgb(28,71,53);
 }
 
-
 .btn-primary {
     color:#F2D6D4;
 }
 .btn-primary:hover {
     color:white;
 }
+#homepage-about {}
 
+#homepage-about.h2{
+  text-align: left;
+}
+
+#aboutus-emphasis {
+  color: #3f8c68;
+  padding-left: .5em;
+}
+
+#aboutus-textblock{
+  padding-top: 1.5em;
+  padding-bottom: 3em;
+  margin-bottom: 2em;
+}
+
+.sidebar-img-small {
+  display: none;
+}
+
+.sidebar-img {
+  min-width: 200px;
+  max-width: 100%
+}
 
 /*  Jumbotron */
 .jumbotron{
@@ -229,30 +252,7 @@ p.lead {
     transform: scale(1.5);
   }
 
-/* HomePage -- Main */
-#homepage-about {
-  background-color: #ecdbd2;
-}
 
-#aboutus-emphasis {
-  color: #3f8c68;
-  padding-left: .5em;
-}
-
-#aboutus-textblock{
-  padding-top: 1.5em;
-  padding-bottom: 3em;
-  margin-bottom: 2em;
-}
-
-.sidebar-img-small {
-  display: none;
-}
-
-.sidebar-img {
-  min-width: 200px;
-  max-width: 100%
-}
 
 
 /* Media Queries */
@@ -264,6 +264,8 @@ p.lead {
 
 .card {
   width: 16rem;
+  border: none;
+
 }
 
 .card-body{
