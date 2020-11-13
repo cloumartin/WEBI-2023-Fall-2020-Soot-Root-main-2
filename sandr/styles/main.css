@@ -137,7 +137,7 @@ h4{
 .btn-primary:hover {
     color:white;
 }
-#homepage-about {}
+
 
 #homepage-about.h2{
   text-align: left;
@@ -165,9 +165,12 @@ h4{
 
 /*  Jumbotron */
 .jumbotron{
-    background-color: #F2D6D4;
-    display: none;
+  background-image: url('../images/woman-gardening_3.jpg');
+  min-height: 500px;
+  height: auto;
+  background-position: center;
     }
+
 
 p.lead {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
