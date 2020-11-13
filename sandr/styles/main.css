@@ -169,6 +169,7 @@ h4{
   min-height: 500px;
   height: auto;
   background-position: center;
+    
     }
 
 
@@ -265,6 +266,48 @@ p.lead {
     transform: scale(1.5);
   }
 
+/*contact form*/
+
+#aboutus-emphasis {
+  color: #3f8c68;
+  padding-left: .5em;
+}
+
+#aboutus-textblock{
+  padding-top: 1.5em;
+  padding-bottom: 3em;
+  margin-bottom: 2em;
+}
+
+.sidebar-img-small {
+  display: none;
+}
+
+.sidebar-img {
+  min-width: 200px;
+  max-width: 100%
+}
+/*content form*/
+input[type=submit] {
+  background-color: #1C4735;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  }
+  input[type=submit]:hover {
+  background-color: #FFFFFF;
+  color: #1C4735;
+  border: 1px solid#1C4735;}
+
+  .btn-warning {
+    color: #F2D6D4;
+    background-color: #3C8E6A;
+    border-color: #111111;
+}
 
 
 
