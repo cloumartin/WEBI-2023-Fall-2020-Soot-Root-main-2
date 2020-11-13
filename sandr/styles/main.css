@@ -131,7 +131,6 @@ h4{
     color: rgb(28,71,53);
 }
 
-
 .btn-primary {
     color:#F2D6D4;
 }
@@ -140,11 +139,38 @@ h4{
 }
 
 
+#homepage-about.h2{
+  text-align: left;
+}
+
+#aboutus-emphasis {
+  color: #3f8c68;
+  padding-left: .5em;
+}
+
+#aboutus-textblock{
+  padding-top: 1.5em;
+  padding-bottom: 3em;
+  margin-bottom: 2em;
+}
+
+.sidebar-img-small {
+  display: none;
+}
+
+.sidebar-img {
+  min-width: 200px;
+  max-width: 100%
+}
+
 /*  Jumbotron */
 .jumbotron{
-    background-color: #F2D6D4;
-    display: none;
+  background-image: url('../images/woman-gardening_3.jpg');
+  min-height: 500px;
+  height: auto;
+  background-position: center;
     }
+
 
 p.lead {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
@@ -229,10 +255,7 @@ p.lead {
     transform: scale(1.5);
   }
 
-/* HomePage -- Main */
-#homepage-about {
-  background-color: #ecdbd2;
-}
+/*contact form*/
 
 #aboutus-emphasis {
   color: #3f8c68;
@@ -276,6 +299,7 @@ input[type=submit] {
 }
 
 
+
 /* Media Queries */
 @media only screen and (min-width: 1200px){
 /* for desktop: */
@@ -285,6 +309,8 @@ input[type=submit] {
 
 .card {
   width: 16rem;
+  border: none;
+
 }
 
 .card-body{
