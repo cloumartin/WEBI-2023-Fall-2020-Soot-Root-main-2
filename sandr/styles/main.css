@@ -67,6 +67,22 @@ h4{
     font-variant: normal;
     color: rgb(28,71,53);
 }
+h5{
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+  Tahoma, sans-serif;
+  font-size: 24px;
+  /* font-style: bold; */
+  font-variant: normal;
+  color: rgb(28,71,53);
+}
+h6{
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+  Tahoma, sans-serif;
+  font-size: 16px;
+  /* font-style: bold; */
+  font-variant: normal;
+  color: rgb(28,71,53);
+}
 
 /* Navbar */
 .navbar-dark .navbar-nav .nav-link{
