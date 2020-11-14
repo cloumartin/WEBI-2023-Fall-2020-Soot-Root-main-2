@@ -14,51 +14,42 @@
 
 </head>
 <body>
-  <!-- NAVBAR -->
+  !-- NAVBAR -->
 
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color:rgb(28,71,53);">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
-
-    <a class="navbar-brand" href="index.html"><img src="images/soot&root_logo.svg" alt="Soot & Root" id="logo"></a>
-
+    <a class="navbar-brand" href="#"><img src="images/soot&root_logo.svg" alt="Soot & Root" id="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item active">
           <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
         </li>
-
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle"  data-toggle="dropdown" data-target="dropdown_target" href="">Shop</a>
-
             <span class="caret"></span>
-
-            <div class="dropdown-menu" aria-labelledby="dropdown_target">
+            <div class="dropdown-menu border-0" aria-labelledby="dropdown_target">
               <a class="dropdown-item" href="plants.html">Plants</a>
-              <a class="dropdown-item" href="#">Seed Starter Kit</a>
-              <a class="dropdown-item" href="tools.html">Rocks, Pots & Soil</a>
-              <a class="dropdown-item" href="#">Sale & Discounts</a>
-
+                <a class="dropdown-item" href="tools.html">Rocks,Pots & Soil</a>
+                <a class="dropdown-item" href="kits.html">Seed Starter Kit</a>
+                <a class="dropdown-item" href="sales.html">On Sale</a>
             </div>
         </li>
-
         <li class="nav-item">
-            <a class="nav-link" href="#">Cart</a>
+            <a class="nav-link" href="cart.html">Cart</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Account</a>
+            <a class="nav-link" href="account.html">Account</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">About Us</a>
+          <a class="nav-link" href="about-us.html">About Us</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="">Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
-
 
 <span class="search">
 
@@ -83,11 +74,6 @@
    <p class="h1">Hot SALES </p>
    <p>Only this week!</p>
 <div class="row">
-
- 
-
-
-  <div class="row">
     <!-- PRODUCT CARD START-->
     <div class="col-sm-4 mt-4">
       <div class="card">
@@ -176,74 +162,85 @@
             </div>
             </div>
            </div>
-           </div>
+
+           <!-- PRODUCT CARD START-->
+       <div class="col-sm-4 mt-4">
+        <div class="card">
+              <div class="img-hover-zoom">
+              <img src="images/plants/flowering-maple.jpg" class="card-img-top" id="prodImg">
+               </div>
+        <div class="card-body">
+          <div class="d-flex justify-content-center mb-2">
+          <img src="images/icons/flower_2.svg" width="35px" id="iconFlower">
+          <img src="images/icons/water_1.svg" width="35px" id="iconWater">
+          <img src="images/icons/sun_2.svg" width="35px" id="iconSun">
+          </div>
+            <h5 class="card-title">Flowering-Maple</h5>
+            <p class="card-text"><i>. Abutilon</i></p>
+            <div class="d-flex justify-content-left">
+            <a href="#" class="btn btn-primary border-0" style="background-color:rgb(28,71,53);"><img src="images/icons/cart3.svg" id="addToCart">Add to cart</a><p class="h5" id="prodPrice">&nbsp$15.99</p>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+           
+
         
 
 <!-- SIDEBAR  -->
 
-      <div class="col-3">
-        <p class="h4">Join us on social media we love to see your plants grow and hear your stories.</p>
-        <br><br>
-        <div class="d-flex justify-content-center">
-        <a href="#"><img src="images/icons/instagram.svg" alt="" id="sM"></a>
-        <a href="#"><img src="images/icons/twitter.svg" alt="" id="sM"></a>
-        </div>
-        <div class="d-flex justify-content-center">
-        <a href="#"><img src="images/icons/pinterest.svg" alt="" id="sM"></a>
-        <a href="#"><img src="images/icons/linkedin.svg" alt="" id="sM"></a>
-      </div>
-      </div>
-      </div>
 
+<div class="col-12 col-lg-3 float-center pl-5 text-justify-center" id="vl">
+  <a href="sales.html" class="h3 m-t-5 justify-content-center text-justify-center">On Sale</a>
+    <br><br>
+  <div class="d-flex justify-content-center">
+    <a href="plants.html"><img src="images/plants/indoor-plants.jpg" alt="Plants" class="lD sidebar-img"></a>
+    <a href="plants.html"><img src="images/plants/indoor-plants.jpg" alt="Plants" class="mD sidebar-img-small"></a>
+  </div>
+    <br><br><br>
+  <a href="kits.html" class="h3 justify-content-center">Seed Starter Kit</a>
+    <br><br>
+  <div class="d-flex justify-content-center">
+    <a href="plants.html"><img src="images/plants/outdoor-plants.jpg" alt="Plants" class="lD sidebar-img"></a>
+    <a href="plants.html"><img src="images/plants/outdoor-plants.jpg" alt="Plants" class="mD sidebar-img-small"></a>
+  </div>
+  <br><br><br>
+  <a href="plants.html" class="h3 justify-content-center">Plant Care Tips</a>
+    <br><br>
+  <div class="d-flex justify-content-center">
+    <a href="about-us.html"><img src="images/plants/plant-care.jpg" alt="Plants" class="lD sidebar-img"></a>
+    <a href="about-us.html"><img src="images/plants/plant-care.jpg" alt="Plants" class="mD sidebar-img-small"></a>
+  </div>
+</div>
+</div>
+</div>
+</div>
 
-
-
-
-
-
-
-
-      </div>
-              <!-- FOOTER -->
-
+<!-- FOOTER -->
               <nav class="navbar navbar-expand-xl navbar-dark mt-4" style="background-color:rgb(28,71,53);">
-
                 <div class="container">
-
                     <a class="navbar-brand" href="index.html"><img src="images/soot&root_logo.svg" alt="Soot & Root" id="logo"></a>
-
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-
-
-
-
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
-
-                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
-                        </li>
-
+                      <ul class="navbar-nav d-flex-shrink mr-auto">
                         <li class="nav-item">
                             <a class="footer-nav-link"   href="account.html">Log in/Account</a>
-
                         <li class="nav-item">
-                            <a class="footer-nav-link" href="products.html">Shop</a>
+                            <a class="footer-nav-link" href="plants.html">Shop</a>
                         </li>
                         <li class="footer-nav-item">
                             <a class="footer-nav-link" href="cart.html">Cart</a>
                         </li>
                         <li class="nav-item">
-                          <a class="footer-nav-link" href="">About Us</a>
+                          <a class="footer-nav-link" href="about-us.html">About Us</a>
                       </li>
                       <li class="nav-item">
                           <a class="footer-nav-link" href="contact.html">Contact</a>
                       </li>
                     </ul>
-                    <div class="d-flex">
+                    <span class="row d-flex-shrink mr-auto align-items-start">
+                    <div class="row d-flex-shrink mr-auto align-items-start">
                       <a href="#"><img src="images/icons/instagram_2.svg" alt=""id="sM"></a>
                       <a href="#"><img src="images/icons/twitter_2.svg" alt="" id="sM"></a>
                       </div>
@@ -251,9 +248,8 @@
                       <a href="#"><img src="images/icons/pinterest_2.svg" alt="" id="sM"></a>
                       <a href="#"><img src="images/icons/linkedin_2.svg" alt="" id="sM"></a>
                     </div>
-        </nav>
-
-        </nav>
+                  </span>
+                   </nav>
 
 
 
